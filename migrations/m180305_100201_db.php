@@ -138,7 +138,7 @@ CREATE TABLE `users` (
   `last_name` varchar(255) NOT NULL,
   `type_id` int(11) NOT NULL,
   `phone` int(11) NOT NULL,
-  `email` int(11) NOT NULL,
+  `email` varchar(255) NOT NULL,
   `password` int(11) NOT NULL,
   `is_ative` tinyint(1) NOT NULL DEFAULT '0',
   `branch_id` int(11) NOT NULL
