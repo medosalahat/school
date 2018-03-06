@@ -1,3 +1,7 @@
+To use API Please follow the link 
+
+https://documenter.getpostman.com/collection/view/1320247-8936c0f7-87ba-2733-e5db-e531355d8d0c#introduction
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
