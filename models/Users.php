@@ -14,7 +14,7 @@ use Yii;
  * @property string $last_name
  * @property int $type_id
  * @property int $phone
- * @property int $email
+ * @property string $email
  * @property int $password
  * @property int $is_ative
  * @property int $branch_id
@@ -44,8 +44,8 @@ class Users extends \yii\db\ActiveRecord
     {
         return [
             [['username', 'first_name', 'last_name', 'type_id', 'phone', 'email', 'password', 'branch_id'], 'required'],
-            [['notification_token'], 'string'],
-            [['type_id', 'phone', 'email', 'password', 'is_ative', 'branch_id'], 'integer'],
+            [['notification_token','email'], 'string'],
+            [['type_id', 'phone', 'password', 'is_ative', 'branch_id'], 'integer'],
             [['username', 'first_name', 'last_name'], 'string', 'max' => 255],
             [['type_id'], 'exist', 'skipOnError' => true, 'targetClass' => UserType::className(), 'targetAttribute' => ['type_id' => 'id']],
             [['branch_id'], 'exist', 'skipOnError' => true, 'targetClass' => Branch::className(), 'targetAttribute' => ['branch_id' => 'id']],

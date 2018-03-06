@@ -1,0 +1,1685 @@
+{
+	"id": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+	"name": "school",
+	"description": "# Introduction\nWhat does your API do?\n\n# Overview\nThings that the developers should know about\n\n# Authentication\nWhat is the preferred way of using the API?\n\n# Error Codes\nWhat errors and status codes can a user expect?\n\n# Rate limit\nIs there a limit to the number of requests an user can send?",
+	"order": [],
+	"folders": [
+		{
+			"name": "Delete",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"order": [
+				"18d62d43-0e30-9db6-bb61-8a5f5fa49701",
+				"71447f76-a9d7-eb94-1684-1662dc8b4c34",
+				"c086059c-da91-cf48-dbcc-0fdd7843ccd7",
+				"dbd824ee-14fe-0435-ee99-e5c6f1c62ab9",
+				"26914a5b-1130-8700-ac18-b0c7342dd07f",
+				"fd31086f-36f0-3c17-2692-f870a71dfe04",
+				"5c881a3a-6073-0e93-f07d-9d9bc9623b30",
+				"e64072af-9fb2-315a-a4dc-2e3e7d71baaf"
+			],
+			"owner": "1320247",
+			"folders_order": [],
+			"id": "e49c795f-9762-6aca-a788-869a70929681"
+		},
+		{
+			"name": "Update",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"order": [
+				"25b96e18-f959-2151-5fa3-a195bc919175",
+				"d757b0a4-65bd-03f3-94ba-c645e190e0ee",
+				"474705a8-4bec-2d7a-5f8c-a820e408b117",
+				"01c8a641-2c1d-3b79-f00d-909575f1f93c",
+				"1c4f4429-f484-1da4-aa45-d6c53cf7262a",
+				"e1b80c71-36b3-5824-1905-10162723f2a9",
+				"cb7cf755-62f0-4321-fe08-2212fd37db80",
+				"54b527ef-6ad2-5dca-4b86-854b6f72f5ef"
+			],
+			"owner": "1320247",
+			"folders_order": [],
+			"id": "c1787d58-625f-5823-d87f-646823bcda4b"
+		},
+		{
+			"name": "create",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"order": [
+				"0da49bc0-bfa1-2f34-5a1a-e006a877f636",
+				"e6047ff5-d374-69fc-2fb8-86116c35a648",
+				"1ad42021-e624-b0a9-248e-86611a5acc34",
+				"23e78d95-5698-57c0-5ea8-0364b05d4580",
+				"feeef6fd-8c20-f79c-df38-70a6b47d2e29",
+				"690904eb-bcb4-517b-b912-64662bf22545",
+				"6988c627-11ee-31e8-6acc-b7c0bc6de362",
+				"3b94f470-4e2f-7e86-8a35-8a3c7c8ac71c",
+				"808fcea0-86d8-6780-5187-f1e7ade47b40"
+			],
+			"owner": "1320247",
+			"folders_order": [],
+			"id": "53e1c302-ddbe-1c44-4994-b7a160c78790"
+		},
+		{
+			"name": "view",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"order": [
+				"a6a49963-67e5-1dca-4293-237e2b899518",
+				"14ade08c-6446-8496-cff5-4506afa13d75",
+				"dac1f66d-1445-f060-df8c-8ecda0e3abe9",
+				"e5208d35-d24b-a702-e41f-08c9c9e9845e",
+				"1c4e1346-45c5-5a81-fc5c-4e1e591ae4fe",
+				"3fef7393-180f-e753-ede0-940dd0552d07",
+				"c46b7195-9f29-6bc7-687b-0d7f1c67ed5d",
+				"3fbda8c1-838c-c97c-57e8-c1409e4fbf3f"
+			],
+			"owner": "1320247",
+			"folders_order": [],
+			"id": "e3285525-611d-d648-05fe-637c5022b525"
+		}
+	],
+	"folders_order": [
+		"e3285525-611d-d648-05fe-637c5022b525",
+		"53e1c302-ddbe-1c44-4994-b7a160c78790",
+		"c1787d58-625f-5823-d87f-646823bcda4b",
+		"e49c795f-9762-6aca-a788-869a70929681"
+	],
+	"timestamp": 1520335685600,
+	"owner": "1320247",
+	"public": false,
+	"requests": [
+		{
+			"id": "01c8a641-2c1d-3b79-f00d-909575f1f93c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=course/update",
+			"folder": "c1787d58-625f-5823-d87f-646823bcda4b",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "course/update",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "test name",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "date",
+					"value": "2018-01-01",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "12:00",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "days",
+					"value": "monday",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "term",
+					"value": " some text",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "details",
+					"value": "some details",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "branch_id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337191397,
+			"name": "Course",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "0da49bc0-bfa1-2f34-5a1a-e006a877f636",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=rooms/create",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "rooms/create",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"data": [
+				{
+					"key": "name",
+					"value": "test room",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Rooms",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1520335987423,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "53e1c302-ddbe-1c44-4994-b7a160c78790"
+		},
+		{
+			"id": "14ade08c-6446-8496-cff5-4506afa13d75",
+			"url": "http://localhost/school/web/index.php?r=branch",
+			"method": "GET",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"name": "Branch",
+			"isFromCollection": true,
+			"collectionRequestId": "14ade08c-6446-8496-cff5-4506afa13d75",
+			"folder": "e3285525-611d-d648-05fe-637c5022b525"
+		},
+		{
+			"id": "18d62d43-0e30-9db6-bb61-8a5f5fa49701",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=rooms/delete",
+			"folder": "e49c795f-9762-6aca-a788-869a70929681",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "rooms/delete",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337369849,
+			"name": "Rooms",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "1ad42021-e624-b0a9-248e-86611a5acc34",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=type/create",
+			"folder": "53e1c302-ddbe-1c44-4994-b7a160c78790",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "type/create",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_name",
+					"value": "test user type",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520336069256,
+			"name": "User type",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "1c4e1346-45c5-5a81-fc5c-4e1e591ae4fe",
+			"url": "http://localhost/school/web/index.php?r=schedule",
+			"method": "GET",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"name": "Schedule",
+			"folder": "e3285525-611d-d648-05fe-637c5022b525"
+		},
+		{
+			"id": "1c4f4429-f484-1da4-aa45-d6c53cf7262a",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=branch/update",
+			"folder": "c1787d58-625f-5823-d87f-646823bcda4b",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "branch/update",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "location",
+					"value": "test location",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "test name",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337209206,
+			"name": "Branch",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "23e78d95-5698-57c0-5ea8-0364b05d4580",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=users/create",
+			"folder": "53e1c302-ddbe-1c44-4994-b7a160c78790",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "users/create",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "username",
+					"value": "test username",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "notification_token",
+					"value": "token",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "first_name",
+					"value": "name",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "name",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type_id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "000000000000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "test@mail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "is_ative",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "branch_id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520336437103,
+			"name": "Users",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "25b96e18-f959-2151-5fa3-a195bc919175",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=rooms/update",
+			"folder": "c1787d58-625f-5823-d87f-646823bcda4b",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "rooms/update",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "test room",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337157517,
+			"name": "Rooms",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "26914a5b-1130-8700-ac18-b0c7342dd07f",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=branch/delete",
+			"folder": "e49c795f-9762-6aca-a788-869a70929681",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "branch/delete",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337524729,
+			"name": "Branch",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "3b94f470-4e2f-7e86-8a35-8a3c7c8ac71c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=schedule/create",
+			"folder": "53e1c302-ddbe-1c44-4994-b7a160c78790",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "schedule/create",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "class_room_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "schedule_time",
+					"value": "12:00",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "start_time",
+					"value": "10:00",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "end_time",
+					"value": "15:00",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "date",
+					"value": "2018-01-01",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "room_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337091267,
+			"name": "Schedule",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "3fbda8c1-838c-c97c-57e8-c1409e4fbf3f",
+			"url": "http://localhost/school/web/index.php?r=type",
+			"method": "GET",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"name": "User type",
+			"isFromCollection": true,
+			"collectionRequestId": "3fbda8c1-838c-c97c-57e8-c1409e4fbf3f",
+			"folder": "e3285525-611d-d648-05fe-637c5022b525"
+		},
+		{
+			"id": "3fef7393-180f-e753-ede0-940dd0552d07",
+			"url": "http://localhost/school/web/index.php?r=task",
+			"method": "GET",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"name": "Task",
+			"folder": "e3285525-611d-d648-05fe-637c5022b525"
+		},
+		{
+			"id": "474705a8-4bec-2d7a-5f8c-a820e408b117",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=users/update",
+			"folder": "c1787d58-625f-5823-d87f-646823bcda4b",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "users/update",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "username",
+					"value": "test username",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "notification_token",
+					"value": "token",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "first_name",
+					"value": "name",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "name",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type_id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "000000000000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "test@mail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "is_ative",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "branch_id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337180885,
+			"name": "Users",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "54b527ef-6ad2-5dca-4b86-854b6f72f5ef",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=class_rooms/update",
+			"folder": "c1787d58-625f-5823-d87f-646823bcda4b",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "class_rooms/update",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "course_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "12:00",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "year",
+					"value": "2018",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "trem",
+					"value": "some trm",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "days",
+					"value": "monday",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337332601,
+			"name": "Class Room",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "5c881a3a-6073-0e93-f07d-9d9bc9623b30",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=schedule/delete",
+			"folder": "e49c795f-9762-6aca-a788-869a70929681",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "schedule/delete",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337554872,
+			"name": "Schedule",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "690904eb-bcb4-517b-b912-64662bf22545",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=branch/create",
+			"folder": "53e1c302-ddbe-1c44-4994-b7a160c78790",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "branch/create",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "location",
+					"value": "test location",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "test name",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520336332173,
+			"name": "Branch",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "6988c627-11ee-31e8-6acc-b7c0bc6de362",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=task/create",
+			"folder": "53e1c302-ddbe-1c44-4994-b7a160c78790",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "task/create",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "course_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "task_details",
+					"value": "some task details",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "task_date",
+					"value": "2018-01-01",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "task_note",
+					"value": "some task note",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "is_active",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520336813057,
+			"name": "Task",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "71447f76-a9d7-eb94-1684-1662dc8b4c34",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=type/delete",
+			"folder": "e49c795f-9762-6aca-a788-869a70929681",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "type/delete",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337382617,
+			"name": "User type",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "808fcea0-86d8-6780-5187-f1e7ade47b40",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=class_rooms/create",
+			"folder": "53e1c302-ddbe-1c44-4994-b7a160c78790",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "class_rooms/create",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "course_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "12:00",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "year",
+					"value": "2018",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "trem",
+					"value": "some trm",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "days",
+					"value": "monday",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337062819,
+			"name": "Class Room",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "a6a49963-67e5-1dca-4293-237e2b899518",
+			"url": "http://localhost/school/web/index.php?r=rooms",
+			"method": "GET",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"name": "Rooms",
+			"isFromCollection": true,
+			"collectionRequestId": "a6a49963-67e5-1dca-4293-237e2b899518",
+			"folder": "e3285525-611d-d648-05fe-637c5022b525"
+		},
+		{
+			"id": "c086059c-da91-cf48-dbcc-0fdd7843ccd7",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=users/delete",
+			"folder": "e49c795f-9762-6aca-a788-869a70929681",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "users/delete",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337487211,
+			"name": "Users",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "c46b7195-9f29-6bc7-687b-0d7f1c67ed5d",
+			"url": "http://localhost/school/web/index.php?r=users",
+			"method": "GET",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"name": "Users",
+			"isFromCollection": true,
+			"collectionRequestId": "c46b7195-9f29-6bc7-687b-0d7f1c67ed5d",
+			"folder": "e3285525-611d-d648-05fe-637c5022b525"
+		},
+		{
+			"id": "cb7cf755-62f0-4321-fe08-2212fd37db80",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=schedule/update",
+			"folder": "c1787d58-625f-5823-d87f-646823bcda4b",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "schedule/update",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "class_room_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "schedule_time",
+					"value": "12:00",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "start_time",
+					"value": "10:00",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "end_time",
+					"value": "15:00",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "date",
+					"value": "2018-01-01",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "room_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337234854,
+			"name": "Schedule",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "d757b0a4-65bd-03f3-94ba-c645e190e0ee",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=type/update",
+			"folder": "c1787d58-625f-5823-d87f-646823bcda4b",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "type/update",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "user_name",
+					"value": "test user type",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337168933,
+			"name": "User type",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "dac1f66d-1445-f060-df8c-8ecda0e3abe9",
+			"url": "http://localhost/school/web/index.php?r=class_rooms",
+			"method": "GET",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"name": "Class_rooms",
+			"folder": "e3285525-611d-d648-05fe-637c5022b525"
+		},
+		{
+			"id": "dbd824ee-14fe-0435-ee99-e5c6f1c62ab9",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=course/delete",
+			"folder": "e49c795f-9762-6aca-a788-869a70929681",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "course/delete",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337504490,
+			"name": "Course",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "e1b80c71-36b3-5824-1905-10162723f2a9",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=task/update",
+			"folder": "c1787d58-625f-5823-d87f-646823bcda4b",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "task/update",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "course_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "task_details",
+					"value": "some task details",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "task_date",
+					"value": "2018-01-01",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "task_note",
+					"value": "some task note",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "is_active",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337223894,
+			"name": "Task",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "e5208d35-d24b-a702-e41f-08c9c9e9845e",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=course",
+			"folder": "e3285525-611d-d648-05fe-637c5022b525",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "course",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520335854302,
+			"name": "Course",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c"
+		},
+		{
+			"id": "e6047ff5-d374-69fc-2fb8-86116c35a648",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=notifications",
+			"folder": "53e1c302-ddbe-1c44-4994-b7a160c78790",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "notifications",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "message",
+					"value": "213123123123123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337892190,
+			"name": "notifications",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "e64072af-9fb2-315a-a4dc-2e3e7d71baaf",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=class_rooms/delete",
+			"folder": "e49c795f-9762-6aca-a788-869a70929681",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "class_rooms/delete",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337566401,
+			"name": "Class Room",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "fd31086f-36f0-3c17-2692-f870a71dfe04",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=task/delete",
+			"folder": "e49c795f-9762-6aca-a788-869a70929681",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "task/delete",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520337539912,
+			"name": "Task",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		},
+		{
+			"id": "feeef6fd-8c20-f79c-df38-70a6b47d2e29",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/school/web/index.php?r=course/create",
+			"folder": "53e1c302-ddbe-1c44-4994-b7a160c78790",
+			"queryParams": [
+				{
+					"key": "r",
+					"value": "course/create",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "test name",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "date",
+					"value": "2018-01-01",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "12:00",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "days",
+					"value": "monday",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "term",
+					"value": " some text",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "details",
+					"value": "some details",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "branch_id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520336651529,
+			"name": "Course",
+			"description": "",
+			"collectionId": "8936c0f7-87ba-2733-e5db-e531355d8d0c",
+			"responses": []
+		}
+	]
+}
