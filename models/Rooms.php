@@ -5,7 +5,7 @@ namespace app\models;
 use Yii;
 
 /**
- * This is the model class for table "{{%rooms}}".
+ * This is the model class for table "rooms".
  *
  * @property int $id
  * @property string $name
@@ -15,15 +15,15 @@ use Yii;
 class Rooms extends \yii\db\ActiveRecord
 {
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public static function tableName()
     {
-        return '{{%rooms}}';
+        return 'rooms';
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function rules()
     {
@@ -34,7 +34,7 @@ class Rooms extends \yii\db\ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function attributeLabels()
     {
@@ -53,7 +53,7 @@ class Rooms extends \yii\db\ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      * @return RoomsQuery the active query used by this AR class.
      */
     public static function find()

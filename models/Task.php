@@ -5,7 +5,7 @@ namespace app\models;
 use Yii;
 
 /**
- * This is the model class for table "{{%task}}".
+ * This is the model class for table "task".
  *
  * @property int $id
  * @property int $course_id
@@ -21,30 +21,31 @@ use Yii;
 class Task extends \yii\db\ActiveRecord
 {
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public static function tableName()
     {
-        return '{{%task}}';
+        return 'task';
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function rules()
     {
         return [
             [['course_id', 'task_details', 'user_id', 'task_date', 'task_note'], 'required'],
-            [['course_id', 'user_id', 'is_active'], 'integer'],
+            [['course_id', 'user_id'], 'integer'],
             [['task_details', 'task_note'], 'string'],
             [['task_date'], 'safe'],
+            [['is_active'], 'string', 'max' => 1],
             [['course_id'], 'exist', 'skipOnError' => true, 'targetClass' => Course::className(), 'targetAttribute' => ['course_id' => 'id']],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => Users::className(), 'targetAttribute' => ['user_id' => 'id']],
         ];
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function attributeLabels()
     {
@@ -76,7 +77,7 @@ class Task extends \yii\db\ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      * @return TaskQuery the active query used by this AR class.
      */
     public static function find()

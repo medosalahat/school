@@ -15,7 +15,7 @@ class ClassRoomQuery extends \yii\db\ActiveQuery
     }*/
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      * @return ClassRoom[]|array
      */
     public function all($db = null)
@@ -24,7 +24,7 @@ class ClassRoomQuery extends \yii\db\ActiveQuery
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      * @return ClassRoom|array|null
      */
     public function one($db = null)

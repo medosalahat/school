@@ -10,7 +10,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/248f7065a352273b15a9f624be63830f360a59f2",
+            "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/58382e62e592b7cd800ab1e9f4a3cf54f3663cce",
             "reference": "248f7065a352273b15a9f624be63830f360a59f2",
             "shasum": ""
         },
@@ -198,7 +198,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/cebe/markdown/zipball/af7bae155b5a35a1c8ef67d2a242b31cbc11a45e",
+            "url": "https://api.github.com/repos/cebe/markdown/zipball/7b158880b9c128de39d1102dc26e68082d1c4aa9",
             "reference": "af7bae155b5a35a1c8ef67d2a242b31cbc11a45e",
             "shasum": ""
         },
@@ -260,7 +260,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/02ac0f7418f26f3bc0ed7b1fbe7b98f0d905368a",
+            "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/0f918e0619133672bb1c5fdc4d445fffc6a5bec4",
             "reference": "02ac0f7418f26f3bc0ed7b1fbe7b98f0d905368a",
             "shasum": ""
         },
@@ -386,7 +386,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/80f7a1681672257e5a5df33578e5df418336d745",
+            "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/7889c96f786c5cafd7a7325b432d774029835647",
             "reference": "80f7a1681672257e5a5df33578e5df418336d745",
             "shasum": ""
         },
@@ -608,7 +608,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/f49234bdb54a9a5baef52a1ac73b7e5f33fab7b3",
+            "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/051220255462c080b7c56d09192a930db84c72d9",
             "reference": "f49234bdb54a9a5baef52a1ac73b7e5f33fab7b3",
             "shasum": ""
         },
@@ -718,7 +718,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/2f51f70748ab00d30a2cb4069d2a266f483d28a4",
+            "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/21436e931e99f8a00c8f286f11e71a0e12441d49",
             "reference": "2f51f70748ab00d30a2cb4069d2a266f483d28a4",
             "shasum": ""
         },
@@ -773,7 +773,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/5dce1159142a1ba0fcab4672cb295bf7d8f98824",
+            "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/65fbcca41437baff58a5c0e8f08fae617531dd0d",
             "reference": "5dce1159142a1ba0fcab4672cb295bf7d8f98824",
             "shasum": ""
         },
@@ -825,7 +825,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/yiisoft/yii2-faker/zipball/1cb3bb367cbff6a5318117c5d0cd63a94d011ff2",
+            "url": "https://api.github.com/repos/yiisoft/yii2-faker/zipball/6fd989e79369a8b8e79099e4d5098fc44faa6176",
             "reference": "1cb3bb367cbff6a5318117c5d0cd63a94d011ff2",
             "shasum": ""
         },
@@ -1098,7 +1098,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/f18297be46ffe21e82b2b1801fa437e8809ab8c9",
+            "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/5a8650628d94029eafe1260b2edbaf64de852219",
             "reference": "f18297be46ffe21e82b2b1801fa437e8809ab8c9",
             "shasum": ""
         },
@@ -1249,7 +1249,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/34369daee48eafb2651bea869b4b15d75ccc35f9",
+            "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/ed5fd2281113729f1ebcc64d101ad66028aeb3d5",
             "reference": "34369daee48eafb2651bea869b4b15d75ccc35f9",
             "shasum": ""
         },
@@ -1402,7 +1402,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/93ade88c83f9e70040fdb8d0b7396d47998dd9f3",
+            "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/cd35e43a53ec1c10424a5dec250c30e952e09ced",
             "reference": "93ade88c83f9e70040fdb8d0b7396d47998dd9f3",
             "shasum": ""
         },
@@ -1602,7 +1602,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/f8ca4b604baf23dab89d87773c28cc07405189ba",
+            "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/99d77487b58d70937d469cde6d43f04b07aa57ef",
             "reference": "f8ca4b604baf23dab89d87773c28cc07405189ba",
             "shasum": ""
         },
@@ -1911,7 +1911,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/webmozart/assert/zipball/0df1908962e7a3071564e857d86874dad1ef204a",
+            "url": "https://api.github.com/repos/webmozart/assert/zipball/23bf61bc8a7cc229d7ce8689b1bf818a9e192cac",
             "reference": "0df1908962e7a3071564e857d86874dad1ef204a",
             "shasum": ""
         },
@@ -2115,7 +2115,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/phpspec/prophecy/zipball/dfd6be44111a7c41c2e884a336cc4f461b3b2401",
+            "url": "https://api.github.com/repos/phpspec/prophecy/zipball/5d4764d0b9beb04d5b36801c868cfc79a12c70a3",
             "reference": "dfd6be44111a7c41c2e884a336cc4f461b3b2401",
             "shasum": ""
         },
@@ -2338,7 +2338,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/46247e09b7bbb16910d742e6d68ea968aabca498",
+            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/88373b53cf48e8a280e4a2a8449c0412183b77a5",
             "reference": "46247e09b7bbb16910d742e6d68ea968aabca498",
             "shasum": ""
         },
@@ -2420,7 +2420,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeception/phpunit-wrapper/zipball/19fd05344d2c37f9742daf629f63dd5b387a2e6e",
+            "url": "https://api.github.com/repos/Codeception/phpunit-wrapper/zipball/33e8ccf2f7abf5c031eeae9802b821d30ec0f7fc",
             "reference": "19fd05344d2c37f9742daf629f63dd5b387a2e6e",
             "shasum": ""
         },
@@ -2461,7 +2461,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/yaml/zipball/90fbbce247c1bfc12c6618c047d62c288c79e49c",
+            "url": "https://api.github.com/repos/symfony/yaml/zipball/abab82a85718604d95cbe58dbf464885f37b935a",
             "reference": "90fbbce247c1bfc12c6618c047d62c288c79e49c",
             "shasum": ""
         },
@@ -2643,7 +2643,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/fb7fcddad62ea1ded0669e77af10077f5042125d",
+            "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/b1e0e5e25aaae154fffe4a5ea63fb4af2ce3c16c",
             "reference": "fb7fcddad62ea1ded0669e77af10077f5042125d",
             "shasum": ""
         },
@@ -2701,7 +2701,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/css-selector/zipball/a77f0d8ddd26167edb45d702a20c2d502b09e8c4",
+            "url": "https://api.github.com/repos/symfony/css-selector/zipball/797df6009c3ef46f54156011639a8347115f7223",
             "reference": "a77f0d8ddd26167edb45d702a20c2d502b09e8c4",
             "shasum": ""
         },
@@ -2756,7 +2756,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/browser-kit/zipball/bff1e8d8bab6aa226b47c462c2ec508de5a0ecf7",
+            "url": "https://api.github.com/repos/symfony/browser-kit/zipball/16355a5d0f1499c77efee5ff68d8ea61624d4da1",
             "reference": "bff1e8d8bab6aa226b47c462c2ec508de5a0ecf7",
             "shasum": ""
         },
@@ -2815,7 +2815,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/5de2441e197e87d34299945085152004294354cd",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/2391ed210a239868e7256eb6921b1bd83f3087b5",
             "reference": "5de2441e197e87d34299945085152004294354cd",
             "shasum": ""
         },
@@ -2880,7 +2880,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/console/zipball/8a8364cb4a03ffdbb4228f91401c2d9752e2e857",
+            "url": "https://api.github.com/repos/symfony/console/zipball/58b4f88ec973bf52bdb85b8ef399ff33ab2d1b62",
             "reference": "8a8364cb4a03ffdbb4228f91401c2d9752e2e857",
             "shasum": ""
         },
@@ -2950,7 +2950,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/finder/zipball/6347bc280e751bb85b89cdbbda78ea25ffce2287",
+            "url": "https://api.github.com/repos/symfony/finder/zipball/d78fff5c545a7ecb13f17efa8212ba13ef312fd8",
             "reference": "6347bc280e751bb85b89cdbbda78ea25ffce2287",
             "shasum": ""
         },
@@ -3001,7 +3001,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/guzzle/psr7/zipball/649e354b657977c312cb6fb95720b1ac485f2092",
+            "url": "https://api.github.com/repos/guzzle/psr7/zipball/da9aa31add41b20bf77011b0314b95fac3a06f86",
             "reference": "649e354b657977c312cb6fb95720b1ac485f2092",
             "shasum": ""
         },
@@ -3068,7 +3068,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeception/base/zipball/b8f173dfb3eecbfe46becb392b14e793853336e6",
+            "url": "https://api.github.com/repos/Codeception/base/zipball/fb07b713f2a97cdf0c5c81c93fa26a0785eb44a6",
             "reference": "b8f173dfb3eecbfe46becb392b14e793853336e6",
             "shasum": ""
         },
@@ -3239,7 +3239,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/OpenSooq/yii2-firebase-notification/zipball/96d62b1518a436c8f5e09df6de4b8541a829b0a0",
+            "url": "https://api.github.com/repos/OpenSooq/yii2-firebase-notification/zipball/97628426ec932621773d77d13e57b55bde5c3863",
             "reference": "96d62b1518a436c8f5e09df6de4b8541a829b0a0",
             "shasum": ""
         },
@@ -3270,6 +3270,336 @@
             "firebase",
             "notifications",
             "yii2"
+        ]
+    },
+    {
+        "name": "kartik-v/yii2-krajee-base",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kartik-v/yii2-krajee-base.git",
+            "reference": "2f38bde15e03fd42910801fa8c9681ecf4aac789"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kartik-v/yii2-krajee-base/zipball/2f38bde15e03fd42910801fa8c9681ecf4aac789",
+            "reference": "2f38bde15e03fd42910801fa8c9681ecf4aac789",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2-bootstrap": "@dev"
+        },
+        "time": "2017-11-17 06:34:33",
+        "type": "yii2-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.9.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "kartik\\base\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Kartik Visweswaran",
+                "email": "kartikv2@gmail.com",
+                "homepage": "http://www.krajee.com/"
+            }
+        ],
+        "description": "Base library and foundation components for all Yii2 Krajee extensions.",
+        "homepage": "https://github.com/kartik-v/yii2-krajee-base",
+        "keywords": [
+            "base",
+            "extension",
+            "foundation",
+            "krajee",
+            "widget",
+            "yii2"
+        ]
+    },
+    {
+        "name": "kartik-v/strength-meter",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kartik-v/strength-meter.git",
+            "reference": "d25e35b79116179dfd54b23d922508a0cf957be3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kartik-v/strength-meter/zipball/d25e35b79116179dfd54b23d922508a0cf957be3",
+            "reference": "d25e35b79116179dfd54b23d922508a0cf957be3",
+            "shasum": ""
+        },
+        "time": "2018-03-25 14:34:13",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "kartik\\plugins\\strengthmeter\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Kartik Visweswaran",
+                "email": "kartikv2@gmail.com",
+                "homepage": "http://www.krajee.com/"
+            }
+        ],
+        "description": "A dynamic strength meter for password input validation with various configurable options.",
+        "homepage": "https://github.com/kartik-v/strength-meter",
+        "keywords": [
+            "bootstrap",
+            "jquery",
+            "meter",
+            "password",
+            "strength"
+        ]
+    },
+    {
+        "name": "kartik-v/yii2-password",
+        "version": "v1.5.3",
+        "version_normalized": "1.5.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kartik-v/yii2-password.git",
+            "reference": "5413e68cc6d2f3db6374882d4149b575e060fa8a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kartik-v/yii2-password/zipball/5413e68cc6d2f3db6374882d4149b575e060fa8a",
+            "reference": "5413e68cc6d2f3db6374882d4149b575e060fa8a",
+            "shasum": ""
+        },
+        "require": {
+            "kartik-v/strength-meter": "~1.1",
+            "kartik-v/yii2-krajee-base": "~1.7"
+        },
+        "time": "2016-01-10 16:56:43",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "kartik\\password\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Kartik Visweswaran",
+                "email": "kartikv2@gmail.com",
+                "homepage": "http://www.krajee.com/"
+            }
+        ],
+        "description": "Useful password strength validation utilities for Yii Framework 2.0",
+        "homepage": "https://github.com/kartik-v/yii2-password",
+        "keywords": [
+            "auth",
+            "bootstrap",
+            "extension",
+            "form",
+            "input",
+            "jquery",
+            "password",
+            "strength",
+            "yii",
+            "yii2"
+        ]
+    },
+    {
+        "name": "guzzlehttp/promises",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/promises.git",
+            "reference": "136531aa4e42f9b1971a47fb0faf60da00d2fefa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/promises/zipball/136531aa4e42f9b1971a47fb0faf60da00d2fefa",
+            "reference": "136531aa4e42f9b1971a47fb0faf60da00d2fefa",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8.36"
+        },
+        "time": "2018-03-25 01:26:01",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Promise\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle promises library",
+        "keywords": [
+            "promise"
+        ]
+    },
+    {
+        "name": "guzzlehttp/guzzle",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle.git",
+            "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+            "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/promises": "^1.0",
+            "guzzlehttp/psr7": "^1.4",
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+            "psr/log": "^1.0"
+        },
+        "suggest": {
+            "psr/log": "Required for using the Log middleware"
+        },
+        "time": "2018-04-22 15:46:56",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.3-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "src/functions_include.php"
+            ],
+            "psr-4": {
+                "GuzzleHttp\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle is a PHP HTTP client library",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "rest",
+            "web service"
+        ]
+    },
+    {
+        "name": "sngrl/php-firebase-cloud-messaging",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sngrl/php-firebase-cloud-messaging.git",
+            "reference": "e1a344c20c6d7dc4f89dcc5a56b17129d007d2b2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sngrl/php-firebase-cloud-messaging/zipball/e1a344c20c6d7dc4f89dcc5a56b17129d007d2b2",
+            "reference": "e1a344c20c6d7dc4f89dcc5a56b17129d007d2b2",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/guzzle": "*",
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "mockery/mockery": "*",
+            "phpunit/phpunit": "*"
+        },
+        "time": "2017-06-26 15:58:02",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "sngrl\\PhpFirebaseCloudMessaging\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sngrl",
+                "email": "i@sngrl.ru"
+            }
+        ],
+        "description": "PHP API for Firebase Cloud Messaging from Google",
+        "homepage": "https://github.com/sngrl/php-firebase-cloud-messaging",
+        "keywords": [
+            "FCM",
+            "android",
+            "chrome",
+            "cloud",
+            "firebase",
+            "google",
+            "ios",
+            "notifications",
+            "php"
         ]
     }
 ]

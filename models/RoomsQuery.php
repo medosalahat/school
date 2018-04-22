@@ -15,7 +15,7 @@ class RoomsQuery extends \yii\db\ActiveQuery
     }*/
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      * @return Rooms[]|array
      */
     public function all($db = null)
@@ -24,7 +24,7 @@ class RoomsQuery extends \yii\db\ActiveQuery
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      * @return Rooms|array|null
      */
     public function one($db = null)

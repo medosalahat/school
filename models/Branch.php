@@ -5,26 +5,27 @@ namespace app\models;
 use Yii;
 
 /**
- * This is the model class for table "{{%branch}}".
+ * This is the model class for table "branch".
  *
  * @property int $id
  * @property string $name
  * @property string $location
  *
+ * @property Course[] $courses
  * @property Users[] $users
  */
 class Branch extends \yii\db\ActiveRecord
 {
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public static function tableName()
     {
-        return '{{%branch}}';
+        return 'branch';
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function rules()
     {
@@ -35,7 +36,7 @@ class Branch extends \yii\db\ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function attributeLabels()
     {
@@ -49,13 +50,21 @@ class Branch extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
+    public function getCourses()
+    {
+        return $this->hasMany(Course::className(), ['branch_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
     public function getUsers()
     {
         return $this->hasMany(Users::className(), ['branch_id' => 'id']);
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      * @return BranchQuery the active query used by this AR class.
      */
     public static function find()

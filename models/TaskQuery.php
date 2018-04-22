@@ -15,7 +15,7 @@ class TaskQuery extends \yii\db\ActiveQuery
     }*/
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      * @return Task[]|array
      */
     public function all($db = null)
@@ -24,7 +24,7 @@ class TaskQuery extends \yii\db\ActiveQuery
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      * @return Task|array|null
      */
     public function one($db = null)

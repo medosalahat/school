@@ -15,7 +15,7 @@ class BranchQuery extends \yii\db\ActiveQuery
     }*/
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      * @return Branch[]|array
      */
     public function all($db = null)
@@ -24,7 +24,7 @@ class BranchQuery extends \yii\db\ActiveQuery
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      * @return Branch|array|null
      */
     public function one($db = null)

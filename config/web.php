@@ -12,6 +12,29 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
+        'response' => [
+            'class' => 'yii\web\Response',
+            'on beforeSend' => function ($event) {
+                $response = $event->sender;
+
+                if ($response->data !== null && Yii::$app->request->get('suppress_response_code')) {
+
+                    $response->data = [
+
+                        'data' => $response->data,
+                        'statusCode'=>$response->statusCode
+                    ];
+                }else{
+
+                    $response->data = [
+                        'statusCode'=>$response->statusCode,
+                        'data' => $response->data,
+                    ];
+
+                }
+            },
+        ],
+
         'request' => [
             'baseUrl' => '',
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
@@ -64,9 +87,7 @@ $config = [
             ],*/
         ],
 
-        'response' => [
 
-        ],
 
     ],
     'params' => $params,

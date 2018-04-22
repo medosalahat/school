@@ -5,63 +5,73 @@ namespace app\models;
 use Yii;
 
 /**
- * This is the model class for table "{{%course}}".
+ * This is the model class for table "course".
  *
  * @property int $id
  * @property string $name
- * @property string $date
  * @property int $user_id
- * @property string $time
- * @property string $days
- * @property string $term
  * @property string $details
  * @property int $branch_id
  *
+ * @property ClassRoom[] $classRooms
+ * @property ClassRoomDays[] $classRoomDays
  * @property Users $user
  * @property Branch $branch
+ * @property Task[] $tasks
  */
 class Course extends \yii\db\ActiveRecord
 {
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public static function tableName()
     {
-        return '{{%course}}';
+        return 'course';
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function rules()
     {
         return [
-            [['date', 'time'], 'safe'],
-            [['user_id', 'time', 'days', 'term', 'details', 'branch_id'], 'required'],
+            [['user_id', 'details', 'branch_id'], 'required'],
             [['user_id', 'branch_id'], 'integer'],
-            [['term', 'details'], 'string'],
-            [['name', 'days'], 'string', 'max' => 255],
+            [['details'], 'string'],
+            [['name'], 'string', 'max' => 255],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => Users::className(), 'targetAttribute' => ['user_id' => 'id']],
             [['branch_id'], 'exist', 'skipOnError' => true, 'targetClass' => Branch::className(), 'targetAttribute' => ['branch_id' => 'id']],
         ];
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function attributeLabels()
     {
         return [
             'id' => Yii::t('app', 'ID'),
             'name' => Yii::t('app', 'Name'),
-            'date' => Yii::t('app', 'Date'),
             'user_id' => Yii::t('app', 'User ID'),
-            'time' => Yii::t('app', 'Time'),
-            'days' => Yii::t('app', 'Days'),
-            'term' => Yii::t('app', 'Term'),
             'details' => Yii::t('app', 'Details'),
             'branch_id' => Yii::t('app', 'Branch ID'),
         ];
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getClassRooms()
+    {
+        return $this->hasMany(ClassRoom::className(), ['course_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getClassRoomDays()
+    {
+        return $this->hasMany(ClassRoomDays::className(), ['course_id' => 'id']);
     }
 
     /**
@@ -81,7 +91,15 @@ class Course extends \yii\db\ActiveRecord
     }
 
     /**
-     * {@inheritdoc}
+     * @return \yii\db\ActiveQuery
+     */
+    public function getTasks()
+    {
+        return $this->hasMany(Task::className(), ['course_id' => 'id']);
+    }
+
+    /**
+     * @inheritdoc
      * @return CourseQuery the active query used by this AR class.
      */
     public static function find()

@@ -15,7 +15,7 @@ class CourseQuery extends \yii\db\ActiveQuery
     }*/
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      * @return Course[]|array
      */
     public function all($db = null)
@@ -24,7 +24,7 @@ class CourseQuery extends \yii\db\ActiveQuery
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      * @return Course|array|null
      */
     public function one($db = null)
