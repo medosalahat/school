@@ -1,5 +1,6 @@
 <?php
 namespace app\controllers;
+use PharIo\Manifest\Url;
 use yii\rest\ActiveController;
 use yii;
 class CourseController extends ActiveController{
@@ -11,7 +12,31 @@ class CourseController extends ActiveController{
     public function actions() {
         $actions = parent::actions();
         unset($actions[ 'index']);
+        unset($actions[ 'create']);
         return $actions;
+    }
+    public function actionCreate()
+    {
+        /* @var $model \yii\db\ActiveRecord */
+        $model = new $this->modelClass();
+
+        $model->image = yii\web\UploadedFile::getInstanceByName('image');
+        $model->load(Yii::$app->getRequest()->getBodyParams(), '');
+        if (Yii::$app->request->isPost) {
+            $image = $model->upload();
+            $model->image = $image ;
+                if ($model->save(true,['name','user_id','details','branch_id','image'])) {
+                    $response = Yii::$app->getResponse();
+                    $response->setStatusCode(201);
+                    $id = implode(',', array_values($model->getPrimaryKey(true)));
+                    $response->getHeaders()->set('Location', yii\helpers\Url::toRoute(['view', 'id' => $id], true));
+                } elseif (!$model->hasErrors()) {
+                    throw new yii\web\ServerErrorHttpException('Failed to create the object for unknown reason.');
+                }
+
+        }
+
+        return $model;
     }
     public $prepareDataProvider;
     public $dataFilter;

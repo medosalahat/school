@@ -12,6 +12,7 @@ use Yii;
  * @property int $user_id
  * @property string $details
  * @property int $branch_id
+ * @property string $image
  *
  * @property ClassRoom[] $classRooms
  * @property ClassRoomDays[] $classRoomDays
@@ -38,10 +39,25 @@ class Course extends \yii\db\ActiveRecord
             [['user_id', 'details', 'branch_id'], 'required'],
             [['user_id', 'branch_id'], 'integer'],
             [['details'], 'string'],
+           // [['image'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png,jpg'],
+
             [['name'], 'string', 'max' => 255],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => Users::className(), 'targetAttribute' => ['user_id' => 'id']],
             [['branch_id'], 'exist', 'skipOnError' => true, 'targetClass' => Branch::className(), 'targetAttribute' => ['branch_id' => 'id']],
         ];
+    }
+
+    public function upload()
+    {
+        if ($this->validate()) {
+            $file= '/uploads/' . time().sha1(time()) . '.' . $this->image->extension;
+
+            $this->image->saveAs(__DIR__.'/..'.$file);
+            $this->image= $file;
+            return $file;
+        } else {
+            return false;
+        }
     }
 
     /**
@@ -55,6 +71,7 @@ class Course extends \yii\db\ActiveRecord
             'user_id' => Yii::t('app', 'User ID'),
             'details' => Yii::t('app', 'Details'),
             'branch_id' => Yii::t('app', 'Branch ID'),
+            'image' => Yii::t('app', 'image'),
         ];
     }
 
