@@ -70,7 +70,7 @@ class CourseController extends ActiveController{
         if (!empty($filter)) {
             $query->andWhere($filter);
         }
-        $query->with(['classRooms','classRoomDays','user','branch','tasks']);
+        $query->with(['classRooms','classRoomDays','branch','tasks']);
 
 
 

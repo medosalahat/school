@@ -9,13 +9,11 @@ use Yii;
  *
  * @property int $id
  * @property int $class_room_id
- * @property int $course_id
  * @property string $start_time
  * @property string $end_time
  * @property string $day
  *
  * @property ClassRoom $classRoom
- * @property Course $course
  */
 class ClassRoomDays extends \yii\db\ActiveRecord
 {
@@ -38,7 +36,7 @@ class ClassRoomDays extends \yii\db\ActiveRecord
             [['start_time', 'end_time'], 'safe'],
             [['day'], 'string'],
             [['class_room_id'], 'exist', 'skipOnError' => true, 'targetClass' => ClassRoom::className(), 'targetAttribute' => ['class_room_id' => 'id']],
-            [['course_id'], 'exist', 'skipOnError' => true, 'targetClass' => Course::className(), 'targetAttribute' => ['course_id' => 'id']],
+           // [['course_id'], 'exist', 'skipOnError' => true, 'targetClass' => Course::className(), 'targetAttribute' => ['course_id' => 'id']],
         ];
     }
 
@@ -50,7 +48,7 @@ class ClassRoomDays extends \yii\db\ActiveRecord
         return [
             'id' => Yii::t('app', 'ID'),
             'class_room_id' => Yii::t('app', 'Class Room ID'),
-            'course_id' => Yii::t('app', 'Course ID'),
+
             'start_time' => Yii::t('app', 'Start Time'),
             'end_time' => Yii::t('app', 'End Time'),
             'day' => Yii::t('app', 'Day'),
@@ -65,13 +63,7 @@ class ClassRoomDays extends \yii\db\ActiveRecord
         return $this->hasOne(ClassRoom::className(), ['id' => 'class_room_id']);
     }
 
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getCourse()
-    {
-        return $this->hasOne(Course::className(), ['id' => 'course_id']);
-    }
+
 
     /**
      * @inheritdoc

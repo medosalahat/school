@@ -8,14 +8,14 @@ use Yii;
  * This is the model class for table "task".
  *
  * @property int $id
- * @property int $course_id
+ * @property int $class_room_id
  * @property string $task_details
  * @property int $user_id
  * @property string $task_date
  * @property string $task_note
  * @property int $is_active
  *
- * @property Course $course
+ * @property ClassRoom $classRoom
  * @property Users $user
  */
 class Task extends \yii\db\ActiveRecord
@@ -34,13 +34,13 @@ class Task extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['course_id', 'task_details', 'user_id', 'task_date', 'task_note'], 'required'],
-            [['course_id', 'user_id'], 'integer'],
+            [['class_room_id', 'task_details', 'user_id', 'task_date', 'task_note'], 'required'],
+            [['class_room_id', 'user_id'], 'integer'],
             [['task_details', 'task_note'], 'string'],
             [['task_date'], 'safe'],
             [['is_active'], 'string', 'max' => 1],
-            [['course_id'], 'exist', 'skipOnError' => true, 'targetClass' => Course::className(), 'targetAttribute' => ['course_id' => 'id']],
-            [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => Users::className(), 'targetAttribute' => ['user_id' => 'id']],
+            [['class_room_id'], 'exist', 'skipOnError' => true, 'targetClass' => ClassRoom::className(), 'targetAttribute' => ['class_room_id' => 'id']],
+             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => Users::className(), 'targetAttribute' => ['user_id' => 'id']],
         ];
     }
 
@@ -60,13 +60,6 @@ class Task extends \yii\db\ActiveRecord
         ];
     }
 
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getCourse()
-    {
-        return $this->hasOne(Course::className(), ['id' => 'course_id']);
-    }
 
     /**
      * @return \yii\db\ActiveQuery
@@ -75,6 +68,15 @@ class Task extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Users::className(), ['id' => 'user_id']);
     }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getClassRoom()
+    {
+        return $this->hasOne(ClassRoom::className(), ['id' => 'class_room_id']);
+    }
+
 
     /**
      * @inheritdoc

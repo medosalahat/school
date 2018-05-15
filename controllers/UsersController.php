@@ -52,6 +52,10 @@ class UsersController extends ActiveController{
         if (!empty($filter)) {
             $query->andWhere($filter);
         }
+        if(isset($_GET['type_id']) and !empty($_GET['type_id']) ){
+
+            $query->andFilterWhere(['=','type_id',$_GET['type_id']]);
+        }
         $query->with(['classRooms','courses','schedules','classRooms0','tasks','type','branch']);
 
 
@@ -127,7 +131,7 @@ class UsersController extends ActiveController{
                 innerJoin('class_room','class_room.id = schedule.class_room_id')->
                 innerJoin('course','course.id = class_room.course_id')->
                 innerJoin('branch','branch.id = course.branch_id')->
-                innerJoin('users','users.id = course.user_id')->
+                innerJoin('users','users.id = class_room.user_id')->
                 innerJoin('class_room_days','class_room_days.class_room_id = class_room.id')->
                     where(['schedule.user_id'=>$user->id,'class_room_days.day'=>$day])->
                 createCommand();

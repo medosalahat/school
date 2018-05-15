@@ -9,14 +9,13 @@ use Yii;
  *
  * @property int $id
  * @property string $name
- * @property int $user_id
  * @property string $details
  * @property int $branch_id
  * @property string $image
  *
  * @property ClassRoom[] $classRooms
  * @property ClassRoomDays[] $classRoomDays
- * @property Users $user
+
  * @property Branch $branch
  * @property Task[] $tasks
  */
@@ -36,13 +35,13 @@ class Course extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['user_id', 'details', 'branch_id'], 'required'],
-            [['user_id', 'branch_id'], 'integer'],
+            [['details', 'branch_id'], 'required'],
+            [[  'branch_id'], 'integer'],
             [['details'], 'string'],
            // [['image'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png,jpg'],
 
             [['name'], 'string', 'max' => 255],
-            [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => Users::className(), 'targetAttribute' => ['user_id' => 'id']],
+           // [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => Users::className(), 'targetAttribute' => ['user_id' => 'id']],
             [['branch_id'], 'exist', 'skipOnError' => true, 'targetClass' => Branch::className(), 'targetAttribute' => ['branch_id' => 'id']],
         ];
     }
@@ -68,7 +67,7 @@ class Course extends \yii\db\ActiveRecord
         return [
             'id' => Yii::t('app', 'ID'),
             'name' => Yii::t('app', 'Name'),
-            'user_id' => Yii::t('app', 'User ID'),
+
             'details' => Yii::t('app', 'Details'),
             'branch_id' => Yii::t('app', 'Branch ID'),
             'image' => Yii::t('app', 'image'),

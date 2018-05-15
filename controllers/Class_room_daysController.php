@@ -51,7 +51,11 @@ class Class_room_daysController extends ActiveController{
         if (!empty($filter)) {
             $query->andWhere($filter);
         }
-        $query->with(['classRoom','course']);
+        if(isset($_GET['class_room_id']) and !empty($_GET['class_room_id']) ){
+
+            $query->andFilterWhere(['=','class_room_id',$_GET['class_room_id']]);
+        }
+        $query->with(['classRoom']);
 
 
 

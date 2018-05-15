@@ -9,9 +9,12 @@ use Yii;
  *
  * @property int $id
  * @property int $course_id
+ * @property int $user_id
 
  * @property string $year
- * @property string $trem
+ * @property string $start_date
+ * @property string $end_date
+ * @property string $title
  *
  * @property Course $course
  * @property Users $user
@@ -35,9 +38,10 @@ class ClassRoom extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['course_id', 'year', 'trem'], 'required'],
-            [['course_id'], 'integer'],
-            [['year', 'trem'], 'string', 'max' => 255],
+            [['course_id','user_id','title' ,'year', 'trem'], 'required'],
+            [['course_id','user_id'], 'integer'],
+            [['year','title'], 'string', 'max' => 255],
+            [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => Users::className(), 'targetAttribute' => ['user_id' => 'id']],
             [['course_id'], 'exist', 'skipOnError' => true, 'targetClass' => Course::className(), 'targetAttribute' => ['course_id' => 'id']],
         ];
     }
@@ -50,6 +54,7 @@ class ClassRoom extends \yii\db\ActiveRecord
         return [
             'id' => Yii::t('app', 'ID'),
             'course_id' => Yii::t('app', 'Course ID'),
+            'title' => Yii::t('app', 'Title'),
 
             'year' => Yii::t('app', 'Year'),
             'trem' => Yii::t('app', 'Trem'),
@@ -71,6 +76,14 @@ class ClassRoom extends \yii\db\ActiveRecord
     public function getClassRoomDays()
     {
         return $this->hasMany(ClassRoomDays::className(), ['class_room_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUser()
+    {
+        return $this->hasOne(Users::className(), ['id' => 'user_id']);
     }
 
     /**

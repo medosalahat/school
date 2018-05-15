@@ -45,7 +45,14 @@ class ScheduleController extends ActiveController{
         if (!empty($filter)) {
             $query->andWhere($filter);
         }
-        $query->with(['classRoom','user','room']);
+        if(isset($_GET['class_room_id']) and !empty($_GET['class_room_id']) ){
+
+            $query->andFilterWhere(['=','class_room_id',$_GET['class_room_id']]);
+        } if(isset($_GET['user_id']) and !empty($_GET['user_id']) ){
+
+            $query->andFilterWhere(['=','user_id',$_GET['user_id']]);
+        }
+        $query->with(['classRoom','user']);
 
 
 

@@ -14,7 +14,6 @@ use Yii;
  *
  * @property ClassRoom $classRoom
  * @property Users $user
- * @property Rooms $room
  */
 class Schedule extends \yii\db\ActiveRecord
 {
@@ -32,12 +31,12 @@ class Schedule extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['class_room_id', 'user_id', 'room_id'], 'required'],
-            [['class_room_id', 'user_id', 'room_id'], 'integer'],
+            [['class_room_id', 'user_id'], 'required'],
+            [['class_room_id', 'user_id'], 'integer'],
             [['class_room_id', 'user_id'], 'unique', 'targetAttribute' => ['class_room_id', 'user_id']],
             [['class_room_id'], 'exist', 'skipOnError' => true, 'targetClass' => ClassRoom::className(), 'targetAttribute' => ['class_room_id' => 'id']],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => Users::className(), 'targetAttribute' => ['user_id' => 'id']],
-            [['room_id'], 'exist', 'skipOnError' => true, 'targetClass' => Rooms::className(), 'targetAttribute' => ['room_id' => 'id']],
+           // [['room_id'], 'exist', 'skipOnError' => true, 'targetClass' => Rooms::className(), 'targetAttribute' => ['room_id' => 'id']],
         ];
     }
 
@@ -50,7 +49,7 @@ class Schedule extends \yii\db\ActiveRecord
             'id' => Yii::t('app', 'ID'),
             'class_room_id' => Yii::t('app', 'Class Room ID'),
             'user_id' => Yii::t('app', 'User ID'),
-            'room_id' => Yii::t('app', 'Room ID'),
+
         ];
     }
 
@@ -70,13 +69,7 @@ class Schedule extends \yii\db\ActiveRecord
         return $this->hasOne(Users::className(), ['id' => 'user_id']);
     }
 
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getRoom()
-    {
-        return $this->hasOne(Rooms::className(), ['id' => 'room_id']);
-    }
+
 
     /**
      * @inheritdoc
